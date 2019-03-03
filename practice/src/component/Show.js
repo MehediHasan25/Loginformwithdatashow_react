@@ -22,8 +22,14 @@ class Show extends Component {
             <div>
             <h1>React form</h1>
             <Form onSubmit={this.onSubmit}/>
-            <h3>Name: {this.state.mydata.name}</h3>
-            <h3>Password: {this.state.mydata.pass}</h3>
+            <br/> <br/>
+
+                <h1 style={{textAlign:"center", color: "blue"}}> Welcome to the React</h1>
+                <br/> <br/>
+
+            <h3 style={{textAlign:"left", color: "green"}}>Name: {this.state.mydata.name}</h3>
+            <br/>
+            <h3 style={{textAlign:"left", color: "green"}}>Password: {this.state.mydata.pass}</h3>
             </div>
           );
     }
